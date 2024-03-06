@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Questão 3
+
 int buscaSequencial(int tamanho, int vetor[], int valor) {
     for (int i = 0; i < tamanho-1; i++) {
         for (int j = tamanho-1; j > i; j-- ) {

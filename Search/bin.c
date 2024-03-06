@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Questão 2
+
 int buscaBinaria(int vetor[], int tamanho, int valor) {
     int inicio = 0, fim = tamanho-1, meio;
     int divisao = 0;

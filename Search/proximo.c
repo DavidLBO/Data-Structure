@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Questão 4
+
 int buscaProximo(int vetor[], int tamanho, int valor) {
     int inicio = 0, fim = tamanho-1, meio;
     int proximo = vetor[inicio];
